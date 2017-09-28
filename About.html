@@ -24,39 +24,47 @@ font.ads {
 	font-size: 45px	}
 	
 div.relative {
-	position: relative;
-	bottom: 180px;
+	position: absolute;
+	bottom: 90px;
 }
 p.a1 { 
    position: absolute; 
    color: #bebebe;
    top: 275px; 
    left: 300px; 
-   width: 100%; 
+
 }
 h3.a2 { 
    font-family: 'JosefinSlab-Light', Times, serif;
    position: absolute; 
-   
    color: white;
    top: 205px; 
    left: 250px; 
-   width: 100%; 
+ 
    font-size: 30px
 }
+div.vertical-line {
+	  position: absolute;
+	  bottom: 0px;
+	  top: 280px;
+	  left: 680px;
+      width: 1px; 
+      background-color: white; 
+      height: 50%; 
+ 
+    }
 
 </style>
 </head>
 <body background="images\sunset2.jpg">
-
 	<h1 class ="ad"><font color="white">&nbsp&nbsp&nbsp ABOUT<font class ="ads" color="white">ME|</font></h1></font>
 	<div class = "relative">
-	<img src = "images\black block2.png" >
-	<h3 class = "a2"> BIOGRAPHY</h2>
-	<p class="a1">Bio here</p>
+	<div class ="vertical-line">
 	</div>
-	
-	
+	<img src = "images\black block2.png" >
+	<h3 class = "a2"> BIOGRAPHY</h3>
+	<p class="a1">Bio here</p>
+	</div>	
 </body>
 
 </html>
