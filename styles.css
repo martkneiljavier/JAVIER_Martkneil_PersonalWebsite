@@ -84,3 +84,10 @@ img.git {
 	top: -320px;
 	right: 70px;
 }
+
+img.blockforpic {
+	position: absolute;
+	width: 1000px;
+	height: 600px;
+	top: 40px; 
+}
