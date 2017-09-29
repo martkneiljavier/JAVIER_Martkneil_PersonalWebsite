@@ -7,37 +7,47 @@
 	src: url('OratorStd.otf');
 
 }
+
 @font-face
 {
 	font-family: FREESCPT;
 	src: url('FREESCPT.ttf');
 
 }
+
 @font-face
 {
 	font-family: MyriadPro-BoldCond;
 	src: url('MyriadPro-BoldCond.otf');
 
 }
+
 body {
 	background-repeat: no-repeat;
 }
+
 h4.ad { 
 	position: absolute; 
 	font-family: 'OratorStd', Times, serif;
 	left: 375px;
 	top: 280px;
-	font-size: 45px	}
+	font-size: 45px	
+}
+
 h6.ads { 
 	font-family: 'OratorStd', Times, serif;
-	font-size: 20px	}
+	font-size: 20px	
+
+}
 h1.ad2 {
 	font-family: 'MyriadPro-BoldCond', Times, serif;
-	font-size: 20px }
+	font-size: 20px 
+}
 
 h1.ad3 {
 	font-family: 'FREESCPT', Times, serif;
-	font-size: 40px }
+	font-size: 40px 
+}
 	
 a:link {
     text-decoration: none;
@@ -58,14 +68,15 @@ img.instagram {
 	right: 145px;
 	top: 11px;
 }
+
 img.usep {
 	position: absolute;
 }
+
 img.git {
 	position: absolute;
 	top: 2px;
 	left: 990px;
-
 }
 
 .name {
