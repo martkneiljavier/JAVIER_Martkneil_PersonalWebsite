@@ -1,0 +1,54 @@
+
+
+@font-face
+{
+	font-family: JosefinSlab-SemiBold;
+	src: url('JosefinSlab-Bold.ttf');
+
+}
+@font-face
+{
+	font-family: JosefinSlab-Regular;
+	src: url('JosefinSlab-Regular.ttf');
+
+}
+body {
+	background-repeat: no-repeat;
+}
+h1.ad { 
+	font-family: 'JosefinSlab-SemiBold', Times, serif;
+	font-size: 45px	}
+font.ads { 
+	font-family: 'JosefinSlab-Regular', Time, serif;
+	font-size: 45px	}
+	
+div.relative {
+	position: absolute;
+	bottom: 90px;
+}
+p.a1 { 
+   position: absolute; 
+   color: #bebebe;
+   top: 275px; 
+   left: 300px; 
+
+}
+h3.a2 { 
+   font-family: 'JosefinSlab-Regular', Times, serif;
+   position: absolute; 
+   color: white;
+   top: 205px; 
+   left: 250px; 
+ 
+   font-size: 30px
+}
+div.vertical-line {
+	  position: absolute;
+	  bottom: 0px;
+	  top: 280px;
+	  left: 680px;
+      width: 1px; 
+      background-color: white; 
+      height: 50%; 
+ 
+    }
