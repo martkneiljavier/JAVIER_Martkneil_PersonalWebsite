@@ -1,5 +1,6 @@
 
 
+
 @font-face
 {
 	font-family: OratorStd;
@@ -49,4 +50,26 @@ a:visited {
 
 a:hover {
     text-decoration: none;
+}
+img.instagram {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	right: 145px;
+	top: 11px;
+}
+img.usep {
+	position: absolute;
+}
+img.git {
+	position: absolute;
+	top: 2px;
+	left: 990px;
+
+}
+
+.name {
+	position: relative;
+	top: -320px;
+	right: 70px;
 }
