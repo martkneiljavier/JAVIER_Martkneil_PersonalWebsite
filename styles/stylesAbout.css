@@ -29,9 +29,11 @@ div.relative {
 }
 p.a1 { 
    position: absolute; 
+   font-family: 'JosefinSlab-Regular', Times, serif;
    color: #bebebe;
-   top: 275px; 
-   left: 300px; 
+   top: 170px; 
+   left: 270px; 
+   font-size: 17px
 
 }
 h3.a2 { 
@@ -40,13 +42,12 @@ h3.a2 {
    color: white;
    top: 205px; 
    left: 250px; 
- 
    font-size: 30px
 }
 div.vertical-line {
 	  position: absolute;
 	  bottom: 0px;
-	  top: 180px;
+	  top: 176px;
 	  left: 680px;
       width: 1px; 
       background-color: white; 
@@ -58,3 +59,13 @@ img.blockpos {
 	top: -100px; 
 	right: 0px;	
 }    
+
+h3.skillz {
+   position: absolute; 
+   font-family: 'JosefinSlab-Regular', Times, serif;
+   color: white;
+   top: 305px; 
+   left: 256px; 
+ 
+   font-size: 30px
+}
