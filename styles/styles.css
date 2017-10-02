@@ -65,6 +65,23 @@ a:hover {
     text-decoration: none;
 }
 
+img.twitter {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	right: 15px;
+	top: 8px;
+}
+
+
+img.facebook {
+	position: absolute;
+	width: 90px;
+	height: 40px;
+	right: 55px;
+	top: 8px;
+}
+
 img.instagram {
 	position: absolute;
 	width: 35px;
