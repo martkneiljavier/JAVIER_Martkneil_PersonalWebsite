@@ -2,8 +2,8 @@
 
 @font-face
 {
-	font-family: FREESCPT;
-	src: url("../fonts/FREESCPT.ttf");
+	font-family: DancingScript-Regular;
+	src: url("../fonts/DancingScript-Regular.ttf");
 
 }
 
@@ -44,12 +44,12 @@ h1.ad2 {
 	font-size: 20px 
 }
 
-h1.ad3 {
+p.ad3 {
 	position: absolute;
-	font-family: 'MyriadPro-BoldCond', Times, serif;
-	top: 450px;
-	left: 460;
-	font-size: 45px 
+	font-family: 'DancingScript-Regular', Times, serif;
+	top: 435px;
+	left: 430;
+	font-size: 40px 
 }
 	
 a:link {
