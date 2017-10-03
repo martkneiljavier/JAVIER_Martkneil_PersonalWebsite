@@ -25,14 +25,14 @@ font.ads {
 	
 div.relative {
 	position: absolute;
-	bottom: 793px;
+	bottom: 820px;
 }
 p.a1 { 
    position: absolute; 
    font-family: 'JosefinSlab-Regular', Times, serif;
    color: #bebebe;
-   top: 170px; 
-   left: 270px; 
+   top: 160px; 
+   left: 260px; 
    font-size: 17px
 
 }
@@ -40,9 +40,9 @@ h3.a2 {
    position: absolute; 
    font-family: 'JosefinSlab-Regular', Times, serif;
    color: white;
-   top: 205px; 
-   left: 250px; 
-   font-size: 30px
+   top: 266px; 
+   left: 245px; 
+   font-size: 25px
 }
 div.vertical-line {
 	  position: absolute;
@@ -60,6 +60,7 @@ img.blockpos {
 }    
 .blockposi {
 	position: absolute;
+	background-image: url("../images/Black block2.png");
 	top: -100px; 
 	right: 1375px;
 }
@@ -68,14 +69,40 @@ h3.skillz {
    position: absolute; 
    font-family: 'JosefinSlab-Regular', Times, serif;
    color: white;
-   top: 305px; 
-   left: 256px; 
+   top: 317px; 
+   left: 250px; 
  
-   font-size: 30px
+   font-size: 25px
 }
 
 .skillscontent {
 	position: relative;
-	top: 100px;
+	top: 110px;
+	right: 8px;
+}
+
+h3.educ{
+   position: absolute; 
+   font-family: 'JosefinSlab-Regular', Times, serif;
+   color: white;
+   top: 129px; 
+   left: 710px; 
+   font-size: 25px
+}
+
+p.e1 { 
+   position: absolute; 
+   font-family: 'JosefinSlab-Regular', Times, serif;
+   color: #bebebe;
+   top: 160px; 
+   left: 260px; 
+   font-size: 17px
+
+}
+
+.educationcontent {
+	position: relative;
+	bottom: 83px;
+	left: 450px;
 }
 
