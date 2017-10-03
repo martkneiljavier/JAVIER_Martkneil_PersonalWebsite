@@ -1,5 +1,11 @@
 
 
+@font-face
+{
+	font-family: MTCORSVA;
+	src: url("../fonts/MTCORSVA.ttf");
+
+}
 
 @font-face
 {
@@ -8,12 +14,6 @@
 
 }
 
-@font-face
-{
-	font-family: FREESCPT;
-	src: url("../fonts/FREESCPT.ttf");
-
-}
 
 @font-face
 {
@@ -47,9 +47,9 @@ h1.ad2 {
 p.ad3 {
 	position: absolute;
 	top: 450px;
-	left: 490;
-	font-family: 'FREESCPT', Times, serif;
-	font-size: 40px 
+	left: 460;
+	font-family: 'MTCORSVA', Times, serif;
+	font-size: 45px 
 }
 	
 a:link {
