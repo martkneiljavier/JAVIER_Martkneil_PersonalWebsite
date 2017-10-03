@@ -14,6 +14,7 @@
 }
 body {
 	background-repeat: no-repeat;
+	background-size: cover; 
 }
 h1.ad { 
 	font-family: 'JosefinSlab-SemiBold', Times, serif;
@@ -25,7 +26,7 @@ font.ads {
 	
 div.relative {
 	position: absolute;
-	bottom: 820px;
+	bottom: 836px;
 }
 p.a1 { 
    position: absolute; 
@@ -91,7 +92,7 @@ h3.educ{
 }
 
 p.e1 { 
-   position: absolute; 
+
    font-family: 'JosefinSlab-Regular', Times, serif;
    color: #bebebe;
    top: 160px; 
@@ -101,8 +102,8 @@ p.e1 {
 }
 
 .educationcontent {
-	position: relative;
-	bottom: 83px;
-	left: 450px;
+	position: absolute;
+	left: 720px;
+	bottom: 246px;
 }
 
