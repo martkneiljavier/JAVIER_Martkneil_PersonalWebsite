@@ -69,3 +69,9 @@ h3.skillz {
  
    font-size: 30px
 }
+
+.skillscontent {
+	position: relative;
+	top: 100px;
+
+}
