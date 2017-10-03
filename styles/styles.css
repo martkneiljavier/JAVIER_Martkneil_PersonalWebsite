@@ -4,21 +4,21 @@
 @font-face
 {
 	font-family: OratorStd;
-	src: url('OratorStd.otf');
+	src: url("../fonts/OratorStd.otf");
 
 }
 
 @font-face
 {
 	font-family: FREESCPT;
-	src: url('FREESCPT.ttf');
+	src: url("../fonts/FREESCPT.ttf");
 
 }
 
 @font-face
 {
 	font-family: MyriadPro-BoldCond;
-	src: url('MyriadPro-BoldCond.otf');
+	src: url("../fonts/MyriadPro-BoldCond.otf");
 
 }
 

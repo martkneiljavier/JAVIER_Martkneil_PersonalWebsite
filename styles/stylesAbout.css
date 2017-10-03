@@ -3,13 +3,13 @@
 @font-face
 {
 	font-family: JosefinSlab-SemiBold;
-	src: url('JosefinSlab-Bold.ttf');
+	src: url("../fonts/JosefinSlab-Bold.ttf");
 
 }
 @font-face
 {
 	font-family: JosefinSlab-Regular;
-	src: url('JosefinSlab-Regular.ttf');
+	src: url("../fonts/JosefinSlab-Regular.ttf");
 
 }
 body {
