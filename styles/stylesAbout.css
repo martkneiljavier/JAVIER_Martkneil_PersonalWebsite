@@ -223,6 +223,15 @@ h3.educ{
    font-size: 25px
 }
 
+h3.educ1{
+   position: absolute; 
+   font-family: 'JosefinSlab-Regular', Times, serif;
+   color: white;
+   top: 360px; 
+   left: 255px; 
+   font-size: 25px
+}
+
 p.e1 { 
 
    font-family: 'JosefinSlab-Regular', Times, serif;
@@ -232,11 +241,33 @@ p.e1 {
    font-size: 17px
 
 }
+p.e11 { 
+
+   font-family: 'JosefinSlab-Regular', Times, serif;
+   color: #bebebe;
+   top: 160px; 
+   left: 460px; 
+   font-size: 17px
+
+}
 
 .educationcontent {
 	position: absolute;
 	left: 720px;
 	bottom: 246px;
+}
+.educationcontent1 {
+	position: absolute;
+	left: 320px;
+	bottom: 196px;
+}
+
+img.home{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 8px;
+	left: 20px;
 }
 
 img.twitter {
