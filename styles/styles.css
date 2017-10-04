@@ -27,10 +27,10 @@ body {
 }
 
 h4.ad { 
-	position: absolute; 
+	position: relative;
 	font-family: 'OratorStd', Times, serif;
-	left: 375px;
-	top: 280px;
+	text-align: center;
+	bottom: -270px;
 	font-size: 45px	
 }
 
@@ -40,16 +40,20 @@ h6.ads {
 
 }
 h1.ad2 {
+	position: relative;
 	font-family: 'MyriadPro-BoldCond', Times, serif;
-	font-size: 20px 
+	text-align: center;
+	bottom: 0px;
+	font-size: 20px
 }
 
 p.ad3 {
-	position: absolute;
+	position: fixed;
 	font-family: 'DancingScript-Regular', Times, serif;
-	top: 435px;
-	left: 430;
-	font-size: 40px 
+	text-align: center;
+	top: 450px;
+	left: 435px;
+	font-size: 35px 
 }
 	
 a:link {
@@ -124,4 +128,10 @@ img.blockforpic {
 	width: 1000px;
 	height: 600px;
 	top: 40px; 
+}
+
+img.circle {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
 }

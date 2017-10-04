@@ -12,10 +12,41 @@
 	src: url("../fonts/JosefinSlab-Regular.ttf");
 
 }
+
+@font-face
+{
+	font-family: MyriadPro-BoldCond;
+	src: url("../fonts/MyriadPro-BoldCond.otf");
+
+}
+
+a:link {
+    text-decoration: none;
+    color: #bebebe;
+}
+
+a:visited {
+    text-decoration: none;
+	color: #bebebe;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 body {
 	background-repeat: no-repeat;
 	background-size: cover; 
 }
+
+h1.ad2 {
+	position: relative;
+	font-family: 'MyriadPro-BoldCond', Times, serif;
+	text-align: center;
+	bottom: 0px;
+	font-size: 20px
+}
+
 h1.ad { 
 	font-family: 'JosefinSlab-SemiBold', Times, serif;
 	font-size: 45px	}
@@ -26,7 +57,12 @@ font.ads {
 	
 div.relative {
 	position: absolute;
-	bottom: 836px;
+	bottom: 837px;
+}
+div.relative2 {
+	position: absolute;
+	bottom: 220px;
+	left: 350px;
 }
 p.a1 { 
    position: absolute; 
@@ -37,12 +73,29 @@ p.a1 {
    font-size: 17px
 
 }
-h3.a2 { 
-   position: absolute; 
+p.a12 { 
+   position: fixed; 
+   font-family: 'JosefinSlab-Regular', Times, serif;
+   color: #FFFFFF;
+   top: 210px; 
+   left: 570px; 
+   font-size: 17px
+
+}
+h3.a0 {  
+   position: relative;
    font-family: 'JosefinSlab-Regular', Times, serif;
    color: white;
-   top: 266px; 
-   left: 245px; 
+   top: 340px; 
+   left: 250px;  
+   font-size: 25px
+}
+h3.a2 {  
+   position: fixed;	
+   font-family: 'JosefinSlab-Regular', Times, serif;
+   color: white;
+   top: 130px; 
+   left: 600px; 
    font-size: 25px
 }
 div.vertical-line {
@@ -54,7 +107,67 @@ div.vertical-line {
       background-color: white; 
       height: 50%; 
  
-    }
+}
+
+div.vertical-line2 {
+	  position: fixed;
+	  bottom: 0px;
+	  top: 190px;
+	  left: 430px;
+      height: 2px; 
+      background-color: white; 
+      width: 35%; 
+}
+
+div.vertical-line3 {
+	  position: fixed;
+	  bottom: 0px;
+	  top: 201px;
+	  left: 445px;
+      height: 1px; 
+      background-color: white; 
+      width: 33%; 
+}
+div.vertical-line22 {
+	  position: fixed;
+	  bottom: 0px;
+	  top: 380px;
+	  left: 430px;
+      height: 2px; 
+      background-color: white; 
+      width: 35%; 
+}
+
+div.vertical-line33 {
+	  position: fixed;
+	  bottom: 0px;
+	  top: 390px;
+	  left: 445px;
+      height: 1px; 
+      background-color: white; 
+      width: 33%; 
+}
+
+div.vertical-line4 {
+	  position: fixed;
+	  bottom: 0px;
+	  top: 380px;
+	  left: 430px;
+      height: 2px; 
+      background-color: white; 
+      width: 35%; 
+}
+
+div.vertical-line5 {
+	  position: fixed;
+	  bottom: 0px;
+	  top: 391px;
+	  left: 445px;
+      height: 1px; 
+      background-color: white; 
+      width: 33%; 
+}
+
 img.blockpos {
 	position: absolute;
 		
@@ -72,6 +185,16 @@ h3.skillz {
    color: white;
    top: 317px; 
    left: 250px; 
+ 
+   font-size: 25px
+}
+
+h3.skillz2 {
+   position: fixed; 
+   font-family: 'JosefinSlab-Regular', Times, serif;
+   color: white;
+   top: 317px; 
+   left: 600px; 
  
    font-size: 25px
 }
@@ -105,5 +228,41 @@ p.e1 {
 	position: absolute;
 	left: 720px;
 	bottom: 246px;
+}
+
+img.twitter {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	right: 860px;
+	top: 370px;
+}
+
+
+img.facebook {
+	position: relative;
+	width: 90px;
+	height: 40px;
+	right: 660px;
+	top: 370px;
+}
+
+img.instagram {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	right: -650px;
+	top: 372px;
+}
+
+img.git {
+	position: relative;
+	left: 830px;
+	top: 365px;
+}
+.info {
+	position: absolute;
+	top: 640px;
+	left: 575px;
 }
 
